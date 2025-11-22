@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Share Micro Interaction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <div class="share-wrapper">
+      <div
+        class="share-button"
+        id="shareButton"
+        role="button"
+        aria-label="Share"
+        tabindex="0"
+      >
+        <span
+          class="share-label"
+          data-default="Share"
+          data-thankyou="Thank you"
+        >
+          Share
+        </span>
+
+        <div class="share-icons">
+          <button class="share-icon" type="button" style="--i: 0" aria-label="Share on Facebook">
+            <span class="icon">f</span>
+          </button>
+          <button class="share-icon" type="button" style="--i: 1" aria-label="Share on X">
+            <span class="icon">x</span>
+          </button>
+          <button class="share-icon" type="button" style="--i: 2" aria-label="Share on Dribbble">
+            <span class="icon">d</span>
+          </button>
+          <button class="share-icon" type="button" style="--i: 3" aria-label="Share on Vimeo">
+            <span class="icon">v</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
